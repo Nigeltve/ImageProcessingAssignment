@@ -28,7 +28,9 @@ decoder
 g++ main.cpp -o decoder `pkg-config --cflags --libs opencv`
 ```
 
-in the CommandLines you will find the the commands I used to test the various programs.
+in the CommandLines you will find the the commands I used to test the various programs. 
+
+**NOTE**: the the encoder should be ran first.
 
 ```
 Part A
