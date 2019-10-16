@@ -1,0 +1,17 @@
+compile it 
+g++ main.cpp -o decoder `pkg-config --cflags --libs opencv`
+
+Part A
+./encoder ../assingment_things/carriers/grayscale_carrier-09.png ../assingment_things/messages/message1.png
+./decoder ../assingment_things/carriers/grayscale_carrier-09.png ../outputs/Part_A_encoded.png
+
+Part B
+./encoder ../assingment_things/carriers/grayscale_carrier-09.png ../assingment_things/messages/message1.png
+./decoder ../assingment_things/carriers/grayscale_carrier-09.png ../outputs/Part_B_encoded.png
+
+Part C
+./encoder ../assingment_things/messages/message1.png
+
+Part D
+./encoder ../assingment_things/carriers/grayscale_carrier-09.png ../assingment_things/messages/message3.png
+./decoder ../assingment_things/carriers/grayscale_carrier-09.png ../outputs/Part_D_encoded.png
