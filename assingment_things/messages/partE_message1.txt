@@ -1,0 +1,14 @@
+   The objectives of FTP are 1) to promote sharing of files (computer
+   programs and/or data), 2) to encourage indirect or implicit (via
+   programs) use of remote computers, 3) to shield a user from
+   variations in file storage systems among hosts, and 4) to transfer
+   data reliably and efficiently.  FTP, though usable directly by a user
+   at a terminal, is designed mainly for use by programs.
+
+   The attempt in this specification is to satisfy the diverse needs of
+   users of maxi-hosts, mini-hosts, personal workstations, and TACs,
+   with a simple, and easily implemented protocol design.
+
+   This paper assumes knowledge of the Transmission Control Protocol
+   (TCP) [2] and the Telnet Protocol [3].  These documents are contained
+   in the ARPA-Internet protocol handbook [1].
